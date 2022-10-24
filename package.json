@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "simplelightbox": "^2.10.4"
+  },
+  "name": "simplelightbox",
+  "version": "2.10.4",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dmitrij-pularija",
+  "license": "ISC",
+  "description": "SimpleLightbox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitrij-pularija/goit-js-hw-08.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "bugs": {
+    "url": "https://github.com/dmitrij-pularija/goit-js-hw-08/issues"
+  },
+  "homepage": "https://github.com/dmitrij-pularija/goit-js-hw-08#readme"
+}
