@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/dmitrij-pularija/goit-js-hw-08#readme",
   "devDependencies": {
-    "parcel": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
     "simplelightbox": "^2.10.4"
   }
 }
