@@ -1,26 +1,26 @@
 {
-  "dependencies": {
-    "simplelightbox": "^2.10.4"
-  },
-  "name": "simplelightbox",
-  "version": "2.10.4",
-  "main": "index.js",
-  "devDependencies": {},
+  "name": "goit-js-hw-08",
+  "version": "1.0.0",
+  "description": "goit-js-hw-08",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel",
+    "build": "parcel build *.html --public-url /goit-js-hw-08/"
   },
-  "author": "dmitrij-pularija",
-  "license": "ISC",
-  "description": "SimpleLightbox",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dmitrij-pularija/goit-js-hw-08.git"
   },
-  "keywords": [
-    "[]"
-  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/dmitrij-pularija/goit-js-hw-08/issues"
   },
-  "homepage": "https://github.com/dmitrij-pularija/goit-js-hw-08#readme"
+  "homepage": "https://github.com/dmitrij-pularija/goit-js-hw-08#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "simplelightbox": "^2.10.4"
+  }
 }
