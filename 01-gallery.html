@@ -7,14 +7,23 @@
     <title>SimpleLightbox library</title>
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/01-gallery.css" />
-    <script type="module" src="./js/01-gallery.js"></script>
-    
+    <style>
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto;
+      }
+    </style>
   </head>
   <body>
-    <p><a href="index.html">Go back</a></p>
+    <p>
+      <a href="index.html">Go back</a><span>SimpleLightbox library</span
+      ><a href="02-video.html">Next task</a>
+    </p>
 
-    <!-- Add gallery items to this list -->
     <ul class="gallery"></ul>
 
+    <script type="module" src="./js/01-gallery.js"></script>
   </body>
 </html>

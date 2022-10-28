@@ -5,7 +5,7 @@
   "source": "index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "dev": "parcel",
+    "dev": "parcel *.html",
     "build": "parcel build *.html --public-url /goit-js-hw-08/"
   },
   "repository": {
@@ -22,6 +22,10 @@
   "devDependencies": {
     "parcel": "^2.7.0",
     "simplelightbox": "^2.10.4"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.18.0",
+    "lodash.throttle": "^4.1.1",
+    "simplelightbox": "^2.10.4"
   }
-  
 }
