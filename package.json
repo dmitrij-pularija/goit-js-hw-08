@@ -20,8 +20,7 @@
   },
   "homepage": "https://github.com/dmitrij-pularija/goit-js-hw-08#readme",
   "devDependencies": {
-    "parcel": "^2.7.0",
-    "simplelightbox": "^2.10.4"
+    "parcel": "^2.7.0"
   },
   "dependencies": {
     "@vimeo/player": "^2.18.0",
