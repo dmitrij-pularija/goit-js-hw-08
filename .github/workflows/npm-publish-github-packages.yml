@@ -10,14 +10,11 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
-      - name: CheckoutNode
-        uses: actions/setup-node@v3
-        with:
-          node-version: '14'
       - name: Install and Build 🔧
-        run: |
-          npm install -g
-          npm run build
+        uses: actions/setup-node@v3
+        run: npm install
+      - name: Build  
+        run: npm build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
