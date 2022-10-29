@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "goit-js-hw-08",
   "scripts": {
-    "dev": "parcel *.html",
-    "build": "parcel build *.html --public-url /goit-js-hw-08/"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
