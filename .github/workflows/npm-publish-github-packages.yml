@@ -1,4 +1,4 @@
-name: goit-js-hw-08
+name: Build and deploy to GitHub Pages
 
 on:
   push:
@@ -10,8 +10,9 @@ jobs:
     steps:
     - name: Check out repository code
       uses: actions/checkout@v3
+
     - name: Install dependencies  
-       run: 
+       run: |
           npm ci
           npm build
     - name: Deploy
