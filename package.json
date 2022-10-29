@@ -18,8 +18,7 @@
   },
   "homepage": "https://dmitrij-pularija.github.io/goit-js-hw-08/index.html",
   "devDependencies": {
-    "parcel": "^2.7.0",
-    "posthtml-include": "^1.7.4"
+    "parcel": "^2.7.0"
   },
   "dependencies": {
     "@vimeo/player": "^2.18.0",
