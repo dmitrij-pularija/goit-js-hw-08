@@ -13,8 +13,7 @@ jobs:
         with:
           node-version: '14'
       - run: npm ci
-      - run: run build
-      - namm run build
+      - run: npm build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
