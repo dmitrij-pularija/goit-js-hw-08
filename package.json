@@ -18,8 +18,6 @@
   },
   "homepage": "https://dmitrij-pularija.github.io/goit-js-hw-08/index.html",
   "dependencies": {
-    "@vimeo/player": "^2.18.0",
-    "lodash.throttle": "^4.1.1",
     "simplelightbox": "^2.10.4"
   }
 }
