@@ -2,8 +2,6 @@
   "name": "goit-js-hw-08",
   "version": "1.0.0",
   "description": "goit-js-hw-08",
-  "source": "index.html",
-  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "dev": "parcel *.html",
     "build": "parcel build *.html --public-url /goit-js-hw-08/"
@@ -18,9 +16,10 @@
   "bugs": {
     "url": "https://github.com/dmitrij-pularija/goit-js-hw-08/issues"
   },
-  "homepage": "https://github.com/dmitrij-pularija/goit-js-hw-08#readme",
+  "homepage": "https://dmitrij-pularija.github.io/goit-js-hw-08/index.html",
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "posthtml-include": "^1.7.4"
   },
   "dependencies": {
     "@vimeo/player": "^2.18.0",
