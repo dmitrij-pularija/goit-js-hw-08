@@ -13,7 +13,7 @@ jobs:
     - name: Install dependencies  
       uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: "14"
       run: npm i
       run: npm build
     - name: Deploy
