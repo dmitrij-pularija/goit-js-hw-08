@@ -17,6 +17,11 @@
     "url": "https://github.com/dmitrij-pularija/goit-js-hw-08/issues"
   },
   "homepage": "https://dmitrij-pularija.github.io/goit-js-hw-08/index.html",
+  "devDependencies": {
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "parcel-bundler": "^1.12.5"
+  },
   "dependencies": {
     "@vimeo/player": "^2.18.0",
     "lodash.throttle": "^4.1.1",
