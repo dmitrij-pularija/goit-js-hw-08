@@ -11,8 +11,9 @@ jobs:
     - name: Check out repository code
       uses: actions/checkout@v3
     - name: Install dependencies  
-       run: npm i
-       run: npm build
+       run: 
+          npm ci
+          npm build
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
         with:
