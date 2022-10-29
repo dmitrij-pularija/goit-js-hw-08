@@ -8,14 +8,16 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+    - name: Check out repository code
+      uses: actions/checkout@v3
+    - name: Install dependencies  
+      uses: actions/setup-node@v3
         with:
           node-version: '14'
-      - run: npm ci
-      - run: npm build
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+      run: npm i
+      run: npm build
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: dist
