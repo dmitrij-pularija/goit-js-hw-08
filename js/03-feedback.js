@@ -10,7 +10,8 @@ form.addEventListener("input", throttle(checkForm, 500));
 form.addEventListener("submit", submitForm);
 
 function checkForm(event) {
-  formData[event.target.name] = event.target.value;
+  formData[formEmail.name] = formEmail.value;
+  formData[formMessage.name] = formMessage.value;
   localStorage.setItem("feedback-form-state", JSON.stringify(formData));
 }
 
@@ -19,12 +20,14 @@ function submitForm(event) {
   event.preventDefault();
   event.currentTarget.reset();
   localStorage.removeItem("feedback-form-state");
+  formData = {};
 }
 
 function lastFeedback() {
   const feedback = JSON.parse(localStorage.getItem("feedback-form-state"));
   if (feedback) {
-    formEmail.value = feedback.email;
-    formMessage.value = feedback.message;
+      formEmail.value = feedback.email;
+      formMessage.value = feedback.message;
+      formData = feedback;
   }
 }
